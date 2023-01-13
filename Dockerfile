@@ -9,4 +9,4 @@ ENV SERVER_HOME /opt/spring-boot
 EXPOSE 9012
 
 ### Start instance
-ENTRYPOINT ["java", "-jar", "-Dfile.encoding=UTF-8", "/opt/spring-boot/idosde-backend-1.0.0-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "-Dfile.encoding=UTF-8", "/opt/spring-boot/demo-0.0.1-SNAPSHOT.jar"]
